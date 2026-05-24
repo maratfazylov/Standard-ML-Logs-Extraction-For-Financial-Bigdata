@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 601,
+    "timestamp": "2024-03-15 09:10:07",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "Thread pool active count = 601, queue depth = 37, normal operation",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 602,
+    "timestamp": "2024-03-15 09:10:14",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Checksum mismatch in data-mart-loader: expected 602, got 30 for partition 14",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 603,
+    "timestamp": "2024-03-15 09:10:21",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "Database migration v603 applied, no errors",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 604,
+    "timestamp": "2024-03-15 09:10:28",
+    "service": "api-gateway",
+    "level": "FATAL",
+    "message": "java.lang.OutOfMemoryError: Java heap space in api-gateway",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 605,
+    "timestamp": "2024-03-15 09:10:35",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Warm restart of redis-cache completed in 605ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 606,
+    "timestamp": "2024-03-15 09:10:42",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Spark job stage 606 completed successfully",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 607,
+    "timestamp": "2024-03-15 09:10:49",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Rate limit check passed for API key #607",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 608,
+    "timestamp": "2024-03-15 09:10:56",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Connection timeout during retry — reconnecting to kafka-consumer node 608 (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 609,
+    "timestamp": "2024-03-15 09:11:03",
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "Connection timeout to Kafka broker 609.41.4.609:9092",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 610,
+    "timestamp": "2024-03-15 09:11:10",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Disk usage at 610%, within threshold",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 611,
+    "timestamp": "2024-03-15 09:11:17",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Corrupted message in DLQ: redis-cache — unable to parse 611 bytes at offset 25",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 612,
+    "timestamp": "2024-03-15 09:11:24",
+    "service": "payment-service",
+    "level": "FATAL",
+    "message": "Bit rot detected in payment-service: file /api/v1/reports has silent data corruption",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 613,
+    "timestamp": "2024-03-15 09:11:31",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Deploy v613 rolled out to production successfully",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 614,
+    "timestamp": "2024-03-15 09:11:38",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Metric: p99 latency=614ms, within SLO",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 615,
+    "timestamp": "2024-03-15 09:11:45",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Batch job scheduler: task 615 completed at 2024-03-15 09:11:45",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 616,
+    "timestamp": "2024-03-15 09:11:52",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Pod api-gateway-616 readiness probe passed",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 617,
+    "timestamp": "2024-03-15 09:11:59",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "Warm restart of kafka-consumer completed in 617ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 618,
+    "timestamp": "2024-03-15 09:12:06",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Connection refused on port 618, expected during rolling restart",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 619,
+    "timestamp": "2024-03-15 09:12:13",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Compaction completed for topic audit, 619 segments merged",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 620,
+    "timestamp": "2024-03-15 09:12:20",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Circuit breaker closed for auth-service node 620, normal operation",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 621,
+    "timestamp": "2024-03-15 09:12:27",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Scheduled backup completed, size=621MB",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 622,
+    "timestamp": "2024-03-15 09:12:34",
+    "service": "api-gateway",
+    "level": "ERROR",
+    "message": "Lock escalation deadlock in api-gateway: page lock -> table lock -> deadlock",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 623,
+    "timestamp": "2024-03-15 09:12:41",
+    "service": "api-gateway",
+    "level": "FATAL",
+    "message": "Sequence number gap in api-gateway: expected 623, next is 41 — possible data loss",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 624,
+    "timestamp": "2024-03-15 09:12:48",
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Shard rebalancing in payment-service: 624 partitions moved, 36 remaining",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 625,
+    "timestamp": "2024-03-15 09:12:55",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "Deadlock detector: no deadlocks found in current cycle for kafka-consumer, checked 625 locks",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 626,
+    "timestamp": "2024-03-15 09:13:02",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Error propagation from data-mart-loader: 626 clients received 5xx in 37ms window",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 627,
+    "timestamp": "2024-03-15 09:13:09",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Scheduled backup completed, size=627MB",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 628,
+    "timestamp": "2024-03-15 09:13:16",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Connection pool exhausted for spark-job, waiting for release (normal condition, 628 active)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 629,
+    "timestamp": "2024-03-15 09:13:23",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Metric: p99 latency=629ms, within SLO",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 630,
+    "timestamp": "2024-03-15 09:13:30",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Rate limit check passed for API key #630",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 631,
+    "timestamp": "2024-03-15 09:13:37",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Thread pool active count = 631, queue depth = 28, normal operation",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 632,
+    "timestamp": "2024-03-15 09:13:44",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "API request POST /api/v1/orders returned 200 in 632ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 633,
+    "timestamp": "2024-03-15 09:13:51",
+    "service": "kafka-consumer",
+    "level": "ERROR",
+    "message": "Config push cascade: bad config in kafka-consumer caused 633 reloads",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 634,
+    "timestamp": "2024-03-15 09:13:58",
+    "service": "redis-cache",
+    "level": "ERROR",
+    "message": "Parquet file corruption in redis-cache: column chunk CRC mismatch for customer_profile",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 635,
+    "timestamp": "2024-03-15 09:14:05",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Leader election completed, new leader = redis-cache-635",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 636,
+    "timestamp": "2024-03-15 09:14:12",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "SSL certificate renewed for host-37.internal, expires 2024-03-15",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 637,
+    "timestamp": "2024-03-15 09:14:19",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Соединение разорвано, выполняю штатный реконнект к spark-job (attempt 637)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 638,
+    "timestamp": "2024-03-15 09:14:26",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Deadlock detector: no deadlocks found in current cycle for api-gateway, checked 638 locks",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 639,
+    "timestamp": "2024-03-15 09:14:33",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "Dead letter cascade: Kafka consumer api-gateway fell behind by 639 messages",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 640,
+    "timestamp": "2024-03-15 09:14:40",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "Kafka message consumed from topic payments, offset 640",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 641,
+    "timestamp": "2024-03-15 09:14:47",
+    "service": "auth-service",
+    "level": "FATAL",
+    "message": "Cross-AZ cascade: auth-service in AZ-641 failed, AZ-48 cannot handle full load",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 642,
+    "timestamp": "2024-03-15 09:14:54",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Config reload triggered by admin on auth-service, no errors, version v642",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 643,
+    "timestamp": "2024-03-15 09:15:01",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Соединение разорвано, выполняю штатный реконнект к redis-cache (attempt 643)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 644,
+    "timestamp": "2024-03-15 09:15:08",
+    "service": "auth-service",
+    "level": "ERROR",
+    "message": "Redis deadlock: auth-service Lua script 644 held lock longer than timeout",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 645,
+    "timestamp": "2024-03-15 09:15:15",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "DNS resolution for host-31.internal succeeded, TTL=645s",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 646,
+    "timestamp": "2024-03-15 09:15:22",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Deadlock detector: no deadlocks found in current cycle for spark-job, checked 646 locks",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 647,
+    "timestamp": "2024-03-15 09:15:29",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Retry #647 for message 647: temporary failure, will retry (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 648,
+    "timestamp": "2024-03-15 09:15:36",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Redis cache hit for key session:648",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 649,
+    "timestamp": "2024-03-15 09:15:43",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Read timeout on attempt 649, initiating retry with backoff (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 650,
+    "timestamp": "2024-03-15 09:15:50",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Kafka message consumed from topic payments, offset 650",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 651,
+    "timestamp": "2024-03-15 09:15:57",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Batch job scheduler: task 651 completed at 2024-03-15 09:15:57",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 652,
+    "timestamp": "2024-03-15 09:16:04",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Warm restart of redis-cache completed in 652ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 653,
+    "timestamp": "2024-03-15 09:16:11",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Circuit breaker closed for data-mart-loader node 653, normal operation",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 654,
+    "timestamp": "2024-03-15 09:16:18",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Rate limit check passed for API key #654",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 655,
+    "timestamp": "2024-03-15 09:16:25",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Таймаут соединения при попытке 655, повтор через 46ms (штатный сценарий)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 656,
+    "timestamp": "2024-03-15 09:16:32",
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "GC allocation failure in payment-service, promoting to full GC",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 657,
+    "timestamp": "2024-03-15 09:16:39",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "InnoDB page corruption in auth-service: tablespace customer_profile corrupted at page 657",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 658,
+    "timestamp": "2024-03-15 09:16:46",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Scheduled backup completed, size=658MB",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 659,
+    "timestamp": "2024-03-15 09:16:53",
+    "service": "spark-job",
+    "level": "ERROR",
+    "message": "Kerberos ticket expired in spark-job: renew required for host-16.internal",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 660,
+    "timestamp": "2024-03-15 09:17:00",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Warm restart of data-mart-loader completed in 660ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 661,
+    "timestamp": "2024-03-15 09:17:07",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Database migration v661 applied, no errors",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 662,
+    "timestamp": "2024-03-15 09:17:14",
+    "service": "kafka-consumer",
+    "level": "ERROR",
+    "message": "Memory pressure critical in kafka-consumer: 662MB / 15MB used",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 663,
+    "timestamp": "2024-03-15 09:17:21",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Backpressure signal relieved in spark-job, processing resumed at offset 663",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 664,
+    "timestamp": "2024-03-15 09:17:28",
+    "service": "auth-service",
+    "level": "FATAL",
+    "message": "Connection timeout in auth-service data replica sync: host-47.internal not responding",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 665,
+    "timestamp": "2024-03-15 09:17:35",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Health check passed for data-mart-loader node 665, service is healthy",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 666,
+    "timestamp": "2024-03-15 09:17:42",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Circuit breaker closed for auth-service node 666, normal operation",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 667,
+    "timestamp": "2024-03-15 09:17:49",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Retry #667 for message 667: temporary failure, will retry (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 668,
+    "timestamp": "2024-03-15 09:17:56",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Metric: p99 latency=668ms, within SLO",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 669,
+    "timestamp": "2024-03-15 09:18:03",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Spark job stage 669 completed successfully",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 670,
+    "timestamp": "2024-03-15 09:18:10",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Load balancer health check: data-mart-loader node 670 is UP",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 671,
+    "timestamp": "2024-03-15 09:18:17",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Graceful shutdown of auth-service node 671 initiated for maintenance",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 672,
+    "timestamp": "2024-03-15 09:18:24",
+    "service": "kafka-consumer",
+    "level": "ERROR",
+    "message": "Cascade: kafka-consumer crashed -> load shifted to 12 -> 12 also overloaded",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 673,
+    "timestamp": "2024-03-15 09:18:31",
+    "service": "redis-cache",
+    "level": "ERROR",
+    "message": "Connection timeout to database redis-cache after 673s",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 674,
+    "timestamp": "2024-03-15 09:18:38",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "User 674 logged in successfully from IP 10.0.45.13",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 675,
+    "timestamp": "2024-03-15 09:18:45",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "API request PUT /api/v1/reports returned 200 in 675ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 676,
+    "timestamp": "2024-03-15 09:18:52",
+    "service": "spark-job",
+    "level": "ERROR",
+    "message": "Elasticsearch connection timeout: cluster 676 unreachable after 15ms",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 677,
+    "timestamp": "2024-03-15 09:18:59",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Запрос авторизации подтвержден, user_id=677",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 678,
+    "timestamp": "2024-03-15 09:19:06",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Connection pool exhausted for data-mart-loader, waiting for release (normal condition, 678 active)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 679,
+    "timestamp": "2024-03-15 09:19:13",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Spark job stage 679 completed successfully",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 680,
+    "timestamp": "2024-03-15 09:19:20",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Database migration v680 applied, no errors",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 681,
+    "timestamp": "2024-03-15 09:19:27",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Connection pool refreshed, 681 connections acquired",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 682,
+    "timestamp": "2024-03-15 09:19:34",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Graceful shutdown of api-gateway node 682 initiated for maintenance",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 683,
+    "timestamp": "2024-03-15 09:19:41",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Checkpoint saved at offset 683 for consumer group redis-cache",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 684,
+    "timestamp": "2024-03-15 09:19:48",
+    "service": "api-gateway",
+    "level": "ERROR",
+    "message": "Deadlock in connection pool: api-gateway threads 684..30 blocked",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 685,
+    "timestamp": "2024-03-15 09:19:55",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "User 685 logged in successfully from IP 10.0.36.10",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 686,
+    "timestamp": "2024-03-15 09:20:02",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Deadlock detector: no deadlocks found in current cycle for data-mart-loader, checked 686 locks",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 687,
+    "timestamp": "2024-03-15 09:20:09",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "Graceful shutdown of api-gateway node 687 initiated for maintenance",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 688,
+    "timestamp": "2024-03-15 09:20:16",
+    "service": "api-gateway",
+    "level": "FATAL",
+    "message": "Deadlock: thread-688 locked resource A, thread-9 locked resource B, circular wait",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 689,
+    "timestamp": "2024-03-15 09:20:23",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "API request DELETE /api/v1/payments returned 200 in 689ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 690,
+    "timestamp": "2024-03-15 09:20:30",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "Connection pool exhausted for api-gateway, waiting for release (normal condition, 690 active)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 691,
+    "timestamp": "2024-03-15 09:20:37",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Payment processed successfully for order 691",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 692,
+    "timestamp": "2024-03-15 09:20:44",
+    "service": "kafka-consumer",
+    "level": "FATAL",
+    "message": "Kafka log corruption in kafka-consumer: segment 692 has invalid CRC",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 693,
+    "timestamp": "2024-03-15 09:20:51",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Graceful shutdown of payment-service node 693 initiated for maintenance",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 694,
+    "timestamp": "2024-03-15 09:20:58",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Data mart loader: table risk_score_results updated, 694 rows affected",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 695,
+    "timestamp": "2024-03-15 09:21:05",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Connection refused on port 695, expected during rolling restart",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 696,
+    "timestamp": "2024-03-15 09:21:12",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Checkpoint saved at offset 696 for consumer group auth-service",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 697,
+    "timestamp": "2024-03-15 09:21:19",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Health check passed for data-mart-loader node 697, service is healthy",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 698,
+    "timestamp": "2024-03-15 09:21:26",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Load balancer health check: data-mart-loader node 698 is UP",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 699,
+    "timestamp": "2024-03-15 09:21:33",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Transaction #699 committed in 2ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 700,
+    "timestamp": "2024-03-15 09:21:40",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Connection refused on port 700, expected during rolling restart",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 701,
+    "timestamp": "2024-03-15 09:21:47",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Thread dump: spark-job threads 701..34 in BLOCKED state (deadlock)",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 702,
+    "timestamp": "2024-03-15 09:21:54",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "DNS resolution for host-0.internal succeeded, TTL=702s",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 703,
+    "timestamp": "2024-03-15 09:22:01",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Shard rebalancing in spark-job: 703 partitions moved, 31 remaining",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 704,
+    "timestamp": "2024-03-15 09:22:08",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Payment processed successfully for order 704",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 705,
+    "timestamp": "2024-03-15 09:22:15",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "S3 connection timeout: spark-job unable to access bucket 705 after 44s",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 706,
+    "timestamp": "2024-03-15 09:22:22",
+    "service": "api-gateway",
+    "level": "FATAL",
+    "message": "Connection timeout on ZooKeeper ensemble — leader unreachable",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 707,
+    "timestamp": "2024-03-15 09:22:29",
+    "service": "redis-cache",
+    "level": "FATAL",
+    "message": "Password rotation required: redis-cache — user 707 password exceeds max age",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 708,
+    "timestamp": "2024-03-15 09:22:36",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Replica lag = 708ms, acceptable",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 709,
+    "timestamp": "2024-03-15 09:22:43",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "ZooKeeper deadlock: payment-service session 709 stuck on leader election",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 710,
+    "timestamp": "2024-03-15 09:22:50",
+    "service": "kafka-consumer",
+    "level": "FATAL",
+    "message": "Referential integrity violation in kafka-consumer: foreign key 710 has no matching parent in fact_sales",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 711,
+    "timestamp": "2024-03-15 09:22:57",
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Соединение разорвано, выполняю штатный реконнект к payment-service (attempt 711)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 712,
+    "timestamp": "2024-03-15 09:23:04",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "API key validation failed in api-gateway: key 712 revoked",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 713,
+    "timestamp": "2024-03-15 09:23:11",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Redis cache hit for key session:713",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 714,
+    "timestamp": "2024-03-15 09:23:18",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Cache warmup finished, 714 keys loaded",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 715,
+    "timestamp": "2024-03-15 09:23:25",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Disk usage at 715%, within threshold",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 716,
+    "timestamp": "2024-03-15 09:23:32",
+    "service": "data-mart-loader",
+    "level": "FATAL",
+    "message": "Thrift connection timeout to data-mart-loader after 716ms, retrying node 37",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 717,
+    "timestamp": "2024-03-15 09:23:39",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Checkpoint saved at offset 717 for consumer group data-mart-loader",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 718,
+    "timestamp": "2024-03-15 09:23:46",
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Deploy v718 rolled out to production successfully",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 719,
+    "timestamp": "2024-03-15 09:23:53",
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "Protobuf deserialization failed in payment-service: wire type mismatch in field 719",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 720,
+    "timestamp": "2024-03-15 09:24:00",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Heartbeat received from auth-service at 2024-03-15 09:24:00",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 721,
+    "timestamp": "2024-03-15 09:24:07",
+    "service": "redis-cache",
+    "level": "ERROR",
+    "message": "SAML assertion validation failed in redis-cache: audience mismatch",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 722,
+    "timestamp": "2024-03-15 09:24:14",
+    "service": "auth-service",
+    "level": "ERROR",
+    "message": "Deadlock in Spark driver 722: task scheduler blocked",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 723,
+    "timestamp": "2024-03-15 09:24:21",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "SASL authentication failed in spark-job: mechanism 30 not supported by broker 723",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 724,
+    "timestamp": "2024-03-15 09:24:28",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Retry #724 for message 724: temporary failure, will retry (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 725,
+    "timestamp": "2024-03-15 09:24:35",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Запрос авторизации подтвержден, user_id=725",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 726,
+    "timestamp": "2024-03-15 09:24:42",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "OOM in Spark executor 726, stage 4, task 9",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 727,
+    "timestamp": "2024-03-15 09:24:49",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "OAuth2 token validation failed in payment-service: invalid signature",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 728,
+    "timestamp": "2024-03-15 09:24:56",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Config reload triggered by batch-user on auth-service, no errors, version v728",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 729,
+    "timestamp": "2024-03-15 09:25:03",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Heartbeat received from spark-job at 2024-03-15 09:25:03",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 730,
+    "timestamp": "2024-03-15 09:25:10",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Resource cascade: auth-service exhausted file descriptors -> fork failed -> 7 crashed",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 731,
+    "timestamp": "2024-03-15 09:25:17",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Таймаут соединения при попытке 731, повтор через 22ms (штатный сценарий)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 732,
+    "timestamp": "2024-03-15 09:25:24",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Read timeout on attempt 732, initiating retry with backoff (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 733,
+    "timestamp": "2024-03-15 09:25:31",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "User 733 logged in successfully from IP 10.0.28.10",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 734,
+    "timestamp": "2024-03-15 09:25:38",
+    "service": "auth-service",
+    "level": "FATAL",
+    "message": "Deadlock detector found cycle: auth-service locks #734, #40, #3",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 735,
+    "timestamp": "2024-03-15 09:25:45",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Connection pool exhausted for api-gateway, waiting for release (normal condition, 735 active)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 736,
+    "timestamp": "2024-03-15 09:25:52",
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "NATS connection timeout in payment-service: cluster 736 route disconnected",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 737,
+    "timestamp": "2024-03-15 09:25:59",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Batch job scheduler: task 737 completed at 2024-03-15 09:25:59",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 738,
+    "timestamp": "2024-03-15 09:26:06",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "Heartbeat received from kafka-consumer at 2024-03-15 09:26:06",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 739,
+    "timestamp": "2024-03-15 09:26:13",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Load balancer health check: redis-cache node 739 is UP",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 740,
+    "timestamp": "2024-03-15 09:26:20",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Schema registry: schema v740 registered for topic events",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 741,
+    "timestamp": "2024-03-15 09:26:27",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "Cache warmup finished, 741 keys loaded",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 742,
+    "timestamp": "2024-03-15 09:26:34",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "SSL handshake failed in data-mart-loader: certificate expired for host-2.internal",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 743,
+    "timestamp": "2024-03-15 09:26:41",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Соединение разорвано: payment-service не отвечает после 743 попыток",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 744,
+    "timestamp": "2024-03-15 09:26:48",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Shard rebalancing in api-gateway: 744 partitions moved, 7 remaining",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 745,
+    "timestamp": "2024-03-15 09:26:55",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Disk usage at 745%, within threshold",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 746,
+    "timestamp": "2024-03-15 09:27:02",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Read timeout on attempt 746, initiating retry with backoff (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 747,
+    "timestamp": "2024-03-15 09:27:09",
+    "service": "auth-service",
+    "level": "ERROR",
+    "message": "Swap usage 747% in auth-service, OOM risk elevated",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 748,
+    "timestamp": "2024-03-15 09:27:16",
+    "service": "spark-job",
+    "level": "FATAL",
+    "message": "Cascade failure: spark-job leader crash -> re-election -> 748 follower timeouts",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 749,
+    "timestamp": "2024-03-15 09:27:23",
+    "service": "payment-service",
+    "level": "FATAL",
+    "message": "Connection timeout to external gateway host-15.internal, downstream may be down",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 750,
+    "timestamp": "2024-03-15 09:27:30",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Cache warmup finished, 750 keys loaded",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 751,
+    "timestamp": "2024-03-15 09:27:37",
+    "service": "spark-job",
+    "level": "ERROR",
+    "message": "Cascade: spark-job crashed -> load shifted to 9 -> 9 also overloaded",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 752,
+    "timestamp": "2024-03-15 09:27:44",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "JVM crash: OutOfMemoryError in auth-service thread pool",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 753,
+    "timestamp": "2024-03-15 09:27:51",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Health check passed for api-gateway node 753, service is healthy",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 754,
+    "timestamp": "2024-03-15 09:27:58",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Cascade failure: data-mart-loader partial outage -> 754% of traffic routed to degraded node",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 755,
+    "timestamp": "2024-03-15 09:28:05",
+    "service": "spark-job",
+    "level": "ERROR",
+    "message": "Deadlock in Hazelcast: spark-job lock key=755 not released after 23s",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 756,
+    "timestamp": "2024-03-15 09:28:12",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Compaction completed for topic payments, 756 segments merged",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 757,
+    "timestamp": "2024-03-15 09:28:19",
+    "service": "data-mart-loader",
+    "level": "ERROR",
+    "message": "Container memory limit 757MB reached, OOM killer triggered",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 758,
+    "timestamp": "2024-03-15 09:28:26",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "OOM prevention: heap usage 758%, GC cycles normal",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 759,
+    "timestamp": "2024-03-15 09:28:33",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Backpressure signal relieved in auth-service, processing resumed at offset 759",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 760,
+    "timestamp": "2024-03-15 09:28:40",
+    "service": "api-gateway",
+    "level": "INFO",
+    "message": "Replica lag = 760ms, acceptable",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 761,
+    "timestamp": "2024-03-15 09:28:47",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "OOM prevention: heap usage 761%, GC cycles normal",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 762,
+    "timestamp": "2024-03-15 09:28:54",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "SSL certificate renewed for host-27.internal, expires 2024-03-15",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 763,
+    "timestamp": "2024-03-15 09:29:01",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Backpressure signal relieved in data-mart-loader, processing resumed at offset 763",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 764,
+    "timestamp": "2024-03-15 09:29:08",
+    "service": "data-mart-loader",
+    "level": "FATAL",
+    "message": "Memory leak cascade: data-mart-loader consumed all RAM -> OOM -> systemd restarted",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 765,
+    "timestamp": "2024-03-15 09:29:15",
+    "service": "data-mart-loader",
+    "level": "INFO",
+    "message": "Pod data-mart-loader-765 readiness probe passed",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 766,
+    "timestamp": "2024-03-15 09:29:22",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Payment processed successfully for order 766",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 767,
+    "timestamp": "2024-03-15 09:29:29",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Deploy v767 rolled out to production successfully",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 768,
+    "timestamp": "2024-03-15 09:29:36",
+    "service": "api-gateway",
+    "level": "WARN",
+    "message": "Schema registry: schema v768 registered for topic events",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 769,
+    "timestamp": "2024-03-15 09:29:43",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "DNS resolution for host-29.internal succeeded, TTL=769s",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 770,
+    "timestamp": "2024-03-15 09:29:50",
+    "service": "spark-job",
+    "level": "INFO",
+    "message": "Leader election completed, new leader = spark-job-770",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 771,
+    "timestamp": "2024-03-15 09:29:57",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Schema registry: schema v771 registered for topic audit",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 772,
+    "timestamp": "2024-03-15 09:30:04",
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "Redis cache hit for key session:772",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 773,
+    "timestamp": "2024-03-15 09:30:11",
+    "service": "kafka-consumer",
+    "level": "ERROR",
+    "message": "Соединение разорвано: kafka-consumer не отвечает после 773 попыток",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 774,
+    "timestamp": "2024-03-15 09:30:18",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Transaction #774 committed in 6ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 775,
+    "timestamp": "2024-03-15 09:30:25",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Запрос авторизации подтвержден, user_id=775",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 776,
+    "timestamp": "2024-03-15 09:30:32",
+    "service": "kafka-consumer",
+    "level": "WARN",
+    "message": "OOM prevention: heap usage 776%, GC cycles normal",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 777,
+    "timestamp": "2024-03-15 09:30:39",
+    "service": "redis-cache",
+    "level": "ERROR",
+    "message": "Cassandra SSTable corruption: redis-cache — fact_sales repair needed for token range 777",
+    "label": "anomaly",
+    "anomaly_type": "data_corruption"
+  },
+  {
+    "id": 778,
+    "timestamp": "2024-03-15 09:30:46",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Thread pool active count = 778, queue depth = 28, normal operation",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 779,
+    "timestamp": "2024-03-15 09:30:53",
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "OOM prevented by circuit breaker, dropping requests to payment-service",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 780,
+    "timestamp": "2024-03-15 09:31:00",
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "Data mart loader: table customer_profile updated, 780 rows affected",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 781,
+    "timestamp": "2024-03-15 09:31:07",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Data mart loader: table fraud_events updated, 781 rows affected",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 782,
+    "timestamp": "2024-03-15 09:31:14",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Read timeout on attempt 782, initiating retry with backoff (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 783,
+    "timestamp": "2024-03-15 09:31:21",
+    "service": "auth-service",
+    "level": "FATAL",
+    "message": "ZooKeeper cascade: auth-service session expiry -> ephemeral nodes vanished -> 783 lost config",
+    "label": "anomaly",
+    "anomaly_type": "cascade_failure"
+  },
+  {
+    "id": 784,
+    "timestamp": "2024-03-15 09:31:28",
+    "service": "kafka-consumer",
+    "level": "ERROR",
+    "message": "SSO token mismatch in kafka-consumer: state parameter validation failed",
+    "label": "anomaly",
+    "anomaly_type": "auth_error"
+  },
+  {
+    "id": 785,
+    "timestamp": "2024-03-15 09:31:35",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Replica lag = 785ms, acceptable",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 786,
+    "timestamp": "2024-03-15 09:31:42",
+    "service": "data-mart-loader",
+    "level": "WARN",
+    "message": "Compaction completed for topic orders, 786 segments merged",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 787,
+    "timestamp": "2024-03-15 09:31:49",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Transaction #787 committed in 2ms",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 788,
+    "timestamp": "2024-03-15 09:31:56",
+    "service": "redis-cache",
+    "level": "INFO",
+    "message": "Rate limit check passed for API key #788",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 789,
+    "timestamp": "2024-03-15 09:32:03",
+    "service": "redis-cache",
+    "level": "WARN",
+    "message": "Connection pool refreshed, 789 connections acquired",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 790,
+    "timestamp": "2024-03-15 09:32:10",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Config reload triggered by batch-user on kafka-consumer, no errors, version v790",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 791,
+    "timestamp": "2024-03-15 09:32:17",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Таймаут соединения при попытке 791, повтор через 2ms (штатный сценарий)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 792,
+    "timestamp": "2024-03-15 09:32:24",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Connection timeout during retry — reconnecting to spark-job node 792 (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 793,
+    "timestamp": "2024-03-15 09:32:31",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "SSL certificate renewed for host-36.internal, expires 2024-03-15",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 794,
+    "timestamp": "2024-03-15 09:32:38",
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Leader election completed, new leader = payment-service-794",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 795,
+    "timestamp": "2024-03-15 09:32:45",
+    "service": "redis-cache",
+    "level": "ERROR",
+    "message": "Postgres deadlock: redis-cache query 795 — select for update vs update conflict",
+    "label": "anomaly",
+    "anomaly_type": "deadlock"
+  },
+  {
+    "id": 796,
+    "timestamp": "2024-03-15 09:32:52",
+    "service": "auth-service",
+    "level": "INFO",
+    "message": "Connection timeout during retry — reconnecting to auth-service node 796 (normal)",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 797,
+    "timestamp": "2024-03-15 09:32:59",
+    "service": "auth-service",
+    "level": "ERROR",
+    "message": "Direct buffer memory exhausted in auth-service, restart required",
+    "label": "anomaly",
+    "anomaly_type": "OOM"
+  },
+  {
+    "id": 798,
+    "timestamp": "2024-03-15 09:33:06",
+    "service": "kafka-consumer",
+    "level": "FATAL",
+    "message": "Connection timeout during TLS handshake with kafka-consumer",
+    "label": "anomaly",
+    "anomaly_type": "connection_timeout"
+  },
+  {
+    "id": 799,
+    "timestamp": "2024-03-15 09:33:13",
+    "service": "spark-job",
+    "level": "WARN",
+    "message": "Connection pool refreshed, 799 connections acquired",
+    "label": "normal",
+    "anomaly_type": "none"
+  },
+  {
+    "id": 800,
+    "timestamp": "2024-03-15 09:33:20",
+    "service": "kafka-consumer",
+    "level": "INFO",
+    "message": "Pod kafka-consumer-800 readiness probe passed",
+    "label": "normal",
+    "anomaly_type": "none"
+  }
+]
